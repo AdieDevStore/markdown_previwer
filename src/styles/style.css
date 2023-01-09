@@ -1,0 +1,77 @@
+body {
+    background: #87b5b5; 
+}
+
+.Heading{
+    background-color: #4aa3a3;
+    margin: auto;
+    margin-bottom: 0.8em;
+    padding: 0.5em
+}
+
+.main-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.editor-container{
+    display: flex;
+    align-items: center;
+    width: 600px;
+    flex-wrap: wrap; 
+    margin: auto;
+    box-shadow: 0 3px 16px rgba(0, 0, 0, 0.2);
+}
+
+.editor-heading{
+    font-weight: 700;
+    background-color: #4aa3a3;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: row;
+    text-decoration: solid;
+    width: 100%;
+    border: 0.5px solid black;
+    margin-bottom: 0;
+    box-shadow: 0 3px 16px rgba(0, 0, 0, 0.2);
+}
+
+.editor-heading .reset-button {
+    font-weight: 500;
+    font-size: small;
+    padding: 3px;
+    margin-left: auto;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.reset-button:hover{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.text-field {
+    background: #87b5b5;
+    border-top: none;
+    border: 1px solid #1d2f2f;
+    width: 100%;
+    height: 200px;
+    resize: none;
+}
+
+.preview-container{
+    width: 85%;
+    border: solid 0.5px black;
+    height: 800px;
+    margin: 15px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.viewer-heading{
+    font-weight: 700;
+    padding: 0.5em;
+    background-color: #4aa3a3;
+    border-bottom: solid 0.5px black;
+    box-shadow: 0 3px 16px rgba(0, 0, 0, 0.2);
+}
